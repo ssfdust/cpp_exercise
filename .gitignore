@@ -1,0 +1,9 @@
+*.swp
+.gdb_history
+*.o
+__pycache__
+.color_coded
+testen
+.ycm_extra_conf.py
+.syntastic_c_config
+.syntastic_cpp_config
