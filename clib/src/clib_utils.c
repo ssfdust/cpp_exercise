@@ -52,3 +52,16 @@ float magical_sqrt(float x){
     
     return 1/x;
 }
+
+int i_magical_pow(int x, int y){
+    int p = x, n = 1;
+
+    while(1)
+    {
+        if (n & 1)
+            n = p * n;
+        y = y >> 1;
+        if (y == 0) return n;
+        p = p * p
+    }
+}

@@ -20,3 +20,4 @@ typedef union __data {
     
 extern _data convert_to_bits(_data data, data_type types);
 extern float magical_sqrt(float num);
+extern int i_magical_pow(int x, int y);
